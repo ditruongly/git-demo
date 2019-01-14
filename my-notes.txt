@@ -1,0 +1,5 @@
+# create a branch
+git branch login
+# switch to branch
+git checkout login
+
