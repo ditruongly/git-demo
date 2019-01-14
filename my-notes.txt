@@ -2,4 +2,5 @@
 git branch login
 # switch to branch
 git checkout login
-
+git remote add origin https://github.com/ditruongly/git-demo.git
+git push -u origin master
