@@ -3,4 +3,10 @@ git branch login
 # switch to branch
 git checkout login
 git remote add origin https://github.com/ditruongly/git-demo.git
-git push -u origin master
+# set up local master branch so that it tracks github master branch as an upstream
+git branch -u origin/master
+git pull
+# fatal: Verweigere den Merge von nicht zusammenhängenden Historien.
+# default behaviour hast changed since git 2.9
+# you can use --allow-unrelated-histories to force the merge to happen
+git pull --allow-unrelated-histories
