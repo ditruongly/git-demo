@@ -10,3 +10,4 @@ git pull
 # default behaviour hast changed since git 2.9
 # you can use --allow-unrelated-histories to force the merge to happen
 git pull --allow-unrelated-histories
+git push
