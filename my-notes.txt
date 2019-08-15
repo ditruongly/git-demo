@@ -11,3 +11,9 @@ git pull
 # you can use --allow-unrelated-histories to force the merge to happen
 git pull --allow-unrelated-histories
 git push
+# add changes to staging area
+git add .
+# commit staging area to local repository
+git commit -m "..."
+# push local to remote repository
+git push -u origin/master
