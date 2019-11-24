@@ -17,6 +17,8 @@ git remote add origin https://github.com/ditruongly/mobile_first_webapp.git
 
 git remote set-url origin git@github.com:ditruongly/pollster_django_webapp.git
 
+git config --list
+
 git push origin master
 
 git pull
